@@ -1,0 +1,16 @@
+1.Version control system --> to tracking and managing changes to software code.
+2.Git --> free and open source version control system
+3.cd --> change directory --> navigate the file system on a computer.
+4.mkdir -->  make a directory --> create a folder/directory
+5.git init --> is used to initialize a new git repository. it creates a .git directory in the current working directory. ---> git enable but untracked
+6.git add <filename> -->  to track file
+7.git diff --> compare the content of your working copy with the content that is stored in staging area(stored information)
+8.git rm --cached <filename> --> removing file from VCS
+9.git commit -m "message" : Adding commits keep track of our progress and changes as we work. Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
+When we commit, we should always include a message.
+10.git log : The git log command displays committed snapshots. It lets you list the project history, filter it, and search for specific changes
+11. git blame <filename> : used to find out who last modified each line of a file
+12. git reset --hard <code id> : delete all the commit till the mentioned code id commit and move the head pointer to the previous commit(avilable)
+13. git revert <code id> : it is used when we want to take a previous commit and add it as a new commit, kepping the log intact(used for undoing changes to a repository's commit history)
+14. git remote add origin <github repository> : link the git VCS with github repository
+15. git push -u origin main : The git push command is used to upload local repository content to a remote repository.
